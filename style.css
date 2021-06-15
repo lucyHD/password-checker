@@ -32,6 +32,33 @@ body {
     width: 25%; 
     padding: 10px;
     border-radius: 10px; 
-   
-    
+    align-items: center; 
+
+       
 }
+
+progress {
+    border: none; 
+    border-radius: 8px; 
+    height: 18px; 
+    -webkit-appearance: none; 
+    /* is like a default style across all browsers - resets back to a base  */
+}
+
+
+progress[value]{
+    height: 10px;
+    width: 250px; 
+}
+
+progress[value]::-webkit-progress-bar{
+    background-color: #ffc8dd; 
+    border-radius: 4px; 
+}
+
+
+progress[value]::-webkit-progress-value{
+    background-color: #bde0fe;
+    border-radius: 4px; 
+}
+
