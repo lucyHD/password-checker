@@ -1,11 +1,11 @@
 body {
     display: flex; 
     height: 100vh;
-    flex-direction: column;
-    align-items: center; 
-    /* cross-axis - horizontal */
+    flex-direction: column; 
     justify-content: center;
     /* main-axis - vertical */
+    align-items: center; 
+    /* cross-axis - horizontal */
     background-color: #b8c0ff;
     font-family: 'Roboto', sans-serif; 
 }
