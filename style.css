@@ -11,7 +11,7 @@ body {
 }
 
 
-.password-input {
+.password-input, .strength-evaulation-container{
     background-color: white; 
     width: 25%; 
     padding: 10px;
@@ -29,6 +29,7 @@ body {
     width: 50%; 
     border: 1px solid #b8c0ff;
     border-radius: 10px; 
+    outline: none; 
 }
 
 
@@ -38,6 +39,7 @@ body {
     padding: 10px;
     border-radius: 10px; 
     align-items: center; 
+    margin-bottom: 20px; 
 
        
 }
@@ -67,3 +69,6 @@ progress[value]::-webkit-progress-value{
     border-radius: 4px; 
 }
 
+.strength-evaulation-container__content{
+    
+}

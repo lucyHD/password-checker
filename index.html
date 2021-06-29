@@ -13,13 +13,17 @@
 <body>
 
     <div class="password-input" >
-        <label class="password-input__label" type="password" for="password"> PASSWORD: </label>
+        <label class="password-input__label" type="password" for="password"> Password: </label>
         <input class="password-input__text-area" id="password"> 
     </div>
 
     <div class="strength-check-container">
         <label for="security"></label>
-        <progress class="strength-check-container__bar" id="security" max="10" value="8"> </progress>
+        <progress class="strength-check-container__bar" id="security" max="10" value="0"> </progress>
+    </div>
+
+    <div class="strength-evaulation-container"> 
+        Complexity: <span class="strength-evaluation-container__content" ></span>
     </div>
     
     <script src="app.js"></script>
