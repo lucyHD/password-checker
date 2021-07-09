@@ -25,5 +25,8 @@
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
     }
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
   }
 }

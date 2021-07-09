@@ -1,9 +1,9 @@
-import { checkLengthOfPassword } from "./app";
+import   changeProgressBarValue   from "./pages/app.js";
 
 
-describe('checkLengthOfPassword', () => {
+describe('checking ', () => {
     test('is it returning something', () => {
-        const result = checkLengthOfPassword();
+        const result = changeProgressBarValue();
         expect(result).toBe(0); 
     })
 })
