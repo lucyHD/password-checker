@@ -3,23 +3,17 @@ const password = document.getElementById("password");
 const complexityRating = document.getElementById("complexityRating"); 
 
 
-
-function changeProgressBarValue() {
-        console.log("sdfsdfsdf")
+const getUserInput  = (charactersEntered) => {
+        //the event object is passed by deafult
+      return charactersEntered; 
 
 }
 
 
 document.addEventListener("DOMContentLoaded", () => { 
 
-   
-
- 
-
-
-
-password.addEventListener("input", changeProgressBarValue)
+password.addEventListener("input", function(){getUserInput(event.target.value)})
 
 })
 
-export default changeProgressBarValue; 
+export default getUserInput; 
